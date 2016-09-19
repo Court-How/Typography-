@@ -1,0 +1,72 @@
+/* Embedded Fonts */
+
+@font-face {
+    font-family: blah;
+    src: url(../fonts/Arial.ttf);
+}
+
+
+
+
+/* Container Items */
+
+html,body {
+    height: 100%;
+    background-color: beige
+}
+
+
+#cover {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    font-size: 10em;
+    color: white;
+    text-align: center;
+    padding: 60px 10px;
+    background: url("../images/nuatical1.jpeg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+#container {
+    text-align: left;
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+    padding: 70px 80px;
+}
+
+.author {
+    font-size: .55em;
+}
+
+
+.text {
+    width: 600px;
+    height: 400px;
+    font-family: blah;
+    font-size: 1em;
+    color: #000882;
+    line-height: 2em;
+    letter-spacing: .05em;
+    word-spacing: .2em;
+    text-align: left;
+    text-indent: 3em;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.italic {
+    font-style: italic;
+    color:red;
+}
+
+.bold {
+    font-weight: 900;
+    color:red;
+}
